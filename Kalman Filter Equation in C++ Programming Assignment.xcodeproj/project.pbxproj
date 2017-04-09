@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A6258FDA1E9A251100047A57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6258FD91E9A251100047A57 /* main.cpp */; };
+		A6B77F211E9A74DC00AB4AFA /* quiz1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B77F1F1E9A74DC00AB4AFA /* quiz1.cpp */; };
+		A6B77F241E9A75D700AB4AFA /* quiz2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B77F221E9A75D700AB4AFA /* quiz2.cpp */; };
+		A6B77F271E9A769800AB4AFA /* kalman_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B77F251E9A769800AB4AFA /* kalman_filter.cpp */; };
+		A6B77F2A1E9A770100AB4AFA /* tracking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B77F281E9A770100AB4AFA /* tracking.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		A6258FD61E9A251100047A57 /* Kalman Filter Equation in C++ Programming Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kalman Filter Equation in C++ Programming Assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6258FD91E9A251100047A57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6B77F1F1E9A74DC00AB4AFA /* quiz1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quiz1.cpp; sourceTree = "<group>"; };
+		A6B77F201E9A74DC00AB4AFA /* quiz1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = quiz1.hpp; sourceTree = "<group>"; };
+		A6B77F221E9A75D700AB4AFA /* quiz2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quiz2.cpp; sourceTree = "<group>"; };
+		A6B77F231E9A75D700AB4AFA /* quiz2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = quiz2.hpp; sourceTree = "<group>"; };
+		A6B77F251E9A769800AB4AFA /* kalman_filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kalman_filter.cpp; sourceTree = "<group>"; };
+		A6B77F261E9A769800AB4AFA /* kalman_filter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kalman_filter.hpp; sourceTree = "<group>"; };
+		A6B77F281E9A770100AB4AFA /* tracking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tracking.cpp; sourceTree = "<group>"; };
+		A6B77F291E9A770100AB4AFA /* tracking.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tracking.hpp; sourceTree = "<group>"; };
+		A6B77F2B1E9A775800AB4AFA /* measurement_package.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = measurement_package.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				A6258FD91E9A251100047A57 /* main.cpp */,
+				A6B77F221E9A75D700AB4AFA /* quiz2.cpp */,
+				A6B77F251E9A769800AB4AFA /* kalman_filter.cpp */,
+				A6B77F281E9A770100AB4AFA /* tracking.cpp */,
+				A6B77F291E9A770100AB4AFA /* tracking.hpp */,
+				A6B77F2B1E9A775800AB4AFA /* measurement_package.hpp */,
+				A6B77F261E9A769800AB4AFA /* kalman_filter.hpp */,
+				A6B77F231E9A75D700AB4AFA /* quiz2.hpp */,
+				A6B77F1F1E9A74DC00AB4AFA /* quiz1.cpp */,
+				A6B77F201E9A74DC00AB4AFA /* quiz1.hpp */,
 			);
 			path = "Kalman Filter Equation in C++ Programming Assignment";
 			sourceTree = "<group>";
@@ -119,7 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B77F211E9A74DC00AB4AFA /* quiz1.cpp in Sources */,
 				A6258FDA1E9A251100047A57 /* main.cpp in Sources */,
+				A6B77F241E9A75D700AB4AFA /* quiz2.cpp in Sources */,
+				A6B77F2A1E9A770100AB4AFA /* tracking.cpp in Sources */,
+				A6B77F271E9A769800AB4AFA /* kalman_filter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +155,7 @@
 		A6258FDB1E9A251100047A57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -177,7 +203,7 @@
 		A6258FDC1E9A251100047A57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
