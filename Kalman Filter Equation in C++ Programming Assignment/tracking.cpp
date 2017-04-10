@@ -95,16 +95,14 @@ void Tracking::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
  
     
     VectorXd z = VectorXd(2);
-    z = kf_.H_*kf_.x_;
-    cout << "z = " << z << endl;
-    cout << "measurement_pack.raw_measurements_ = " << measurement_pack.raw_measurements_ << endl;
+
+
     
     
     //3. Call the Kalman Filter predict() function
     
     kf_.Predict();
     //4. Call the Kalman Filter update() function
-    
 
     
     

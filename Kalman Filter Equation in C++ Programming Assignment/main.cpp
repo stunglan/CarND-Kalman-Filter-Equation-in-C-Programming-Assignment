@@ -12,18 +12,22 @@
 
 #include "quiz1.hpp"
 #include "quiz2.hpp"
+#include "quiz3.hpp"
 
 int main() {
 
     int quiz;
     
-    quiz = 2;
+    quiz = 3;
     
     if (quiz == 1) {
         return quiz1main();
     }
     else if (quiz == 2) {
         return quiz2main();
+    }
+    else if (quiz == 3) {
+        return quiz3main();
     }
     
     return 0;

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6258FDA1E9A251100047A57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6258FD91E9A251100047A57 /* main.cpp */; };
+		A6A4660F1E9B98D500316856 /* quiz3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6A4660D1E9B98D500316856 /* quiz3.cpp */; };
 		A6B77F211E9A74DC00AB4AFA /* quiz1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B77F1F1E9A74DC00AB4AFA /* quiz1.cpp */; };
 		A6B77F241E9A75D700AB4AFA /* quiz2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B77F221E9A75D700AB4AFA /* quiz2.cpp */; };
 		A6B77F271E9A769800AB4AFA /* kalman_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B77F251E9A769800AB4AFA /* kalman_filter.cpp */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		A6258FD61E9A251100047A57 /* Kalman Filter Equation in C++ Programming Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kalman Filter Equation in C++ Programming Assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6258FD91E9A251100047A57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6A4660D1E9B98D500316856 /* quiz3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quiz3.cpp; sourceTree = "<group>"; };
+		A6A4660E1E9B98D500316856 /* quiz3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = quiz3.hpp; sourceTree = "<group>"; };
 		A6B77F1F1E9A74DC00AB4AFA /* quiz1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quiz1.cpp; sourceTree = "<group>"; };
 		A6B77F201E9A74DC00AB4AFA /* quiz1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = quiz1.hpp; sourceTree = "<group>"; };
 		A6B77F221E9A75D700AB4AFA /* quiz2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quiz2.cpp; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				A6258FD91E9A251100047A57 /* main.cpp */,
+				A6A4660D1E9B98D500316856 /* quiz3.cpp */,
+				A6A4660E1E9B98D500316856 /* quiz3.hpp */,
 				A6B77F221E9A75D700AB4AFA /* quiz2.cpp */,
 				A6B77F251E9A769800AB4AFA /* kalman_filter.cpp */,
 				A6B77F281E9A770100AB4AFA /* tracking.cpp */,
@@ -143,6 +148,7 @@
 			files = (
 				A6B77F211E9A74DC00AB4AFA /* quiz1.cpp in Sources */,
 				A6258FDA1E9A251100047A57 /* main.cpp in Sources */,
+				A6A4660F1E9B98D500316856 /* quiz3.cpp in Sources */,
 				A6B77F241E9A75D700AB4AFA /* quiz2.cpp in Sources */,
 				A6B77F2A1E9A770100AB4AFA /* tracking.cpp in Sources */,
 				A6B77F271E9A769800AB4AFA /* kalman_filter.cpp in Sources */,
